@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+}
+.container{
+    width: 80vh;
+    height: 80vh;
+    background-color: rgb(219, 246, 246);
+    grid-row: 3;
+    grid-column: 3;
+    
+}
