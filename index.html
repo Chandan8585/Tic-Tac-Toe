@@ -10,13 +10,28 @@
 </head>
 <body>
     <h1>Tic Tac Toe Game</h1>
-    <div class="container">
-  
+    
+    <div class="board" id="board">
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+     <div class="cell" data-cell></div>
+ 
+    <div class="winningMessage" id="winningMessage">
+        <div id="winningMessageText"></div>
+        <button id="restart" class="btn-danger">Restart</button>
     </div>
-    <div class="buttons">
+</div>
+    <!-- <div class="buttons">
     <button class="two-player btn-primary">Two Player Game</button>
     <button class="computer btn-danger">Vs computer</button>
     <button class="reset btn-warning">Reset</button>
-</div>
+</div> -->
 </body>
+<script src="/script.js"></script>
 </html>
